@@ -1,5 +1,4 @@
-import { IMG_URL } from '../.../services/constants';
-
+import { IMG_URL } from 'services/constants';
 export const ReviewSingle = ({ review }) => {
   const { content } = review;
   const { name, rating } = review.author_details;
